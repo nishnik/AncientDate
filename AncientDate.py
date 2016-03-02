@@ -98,8 +98,8 @@ class AncientDate(object):
 			if(come_back_to_first):
 				self.year_first.isAD = self.year_second.isAD
 				self.year_first.isBC = self.year_second.isBC
-			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isFuzzy = self.add_attributes(first_range)
-			self.year_second.val, self.year_second.isPost, self.year_second.isAnte, self.year_second.isFuzzy = self.add_attributes(second_range)
+			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isFuzzy = self._add_attributes(first_range)
+			self.year_second.val, self.year_second.isPost, self.year_second.isAnte, self.year_second.isFuzzy = self._add_attributes(second_range)
 		else:
 			d.isRange = False
 			self.year_second = None
@@ -107,10 +107,10 @@ class AncientDate(object):
 				self.year_first.isAD = True
 			elif "BC" in to_parse:
 				self.year_first.isBC = True
-			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isFuzzy = self.add_attributes(to_parse)
+			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isFuzzy = self._add_attributes(to_parse)
 		return self
 
-	def add_attributes(self, to_check):
+	def _add_attributes(self, to_check):
 		val = ""
 		isPost = None
 		isAnte = None
@@ -131,7 +131,6 @@ class AncientDate(object):
 
 
 for a in AUTHOR_DATE.keys():
-	print (a)
 	d = AncientDate()
-	print (d.parse(a))
+	print (a + " --> " + str(d.parse(a)) + "\n")
 	

@@ -1,0 +1,366 @@
+8 B.C. --> {8 B.C.}
+
+1 B.C. --> {1 B.C.}
+
+A.D. 6-10 --> {6 A.D. - 10 A.D.}
+
+A.D. 5/7 --> {5 A.D. / 7 A.D.}
+
+5/4 B.C. --> {5 B.C. / 4 B.C.}
+
+4-3 B.C. --> {4 B.C. - 3 B.C.}
+
+5/3 B.C.? --> {5 B.C. / 3 B.C., Fuzzy}
+
+A.D. 2/3 --> {2 A.D. / 3 A.D.}
+
+3 B.C./A.D. 1 --> {3 B.C. / 1 A.D.}
+
+5-4 B.C.? --> {5 B.C. - 4 B.C., Fuzzy}
+
+a. A.D. 2 --> {ante 2 A.D.}
+
+A.D. 4 --> {4 A.D.}
+
+p. A.D. 10 --> {post 10 A.D.}
+
+a. 4 B.C.? --> {ante 4 B.C., Fuzzy}
+
+A.D. 5 --> {5 A.D.}
+
+A.D. 1/2? --> {1 A.D. / 2 A.D., Fuzzy}
+
+4/2 B.C.? --> {4 B.C. / 2 B.C., Fuzzy}
+
+a. 2 B.C.? --> {ante 2 B.C., Fuzzy}
+
+A.D. 2/4? --> {2 A.D. / 4 A.D., Fuzzy}
+
+A.D. 4/6 --> {4 A.D. / 6 A.D.}
+
+2-1 B.C. --> {2 B.C. - 1 B.C.}
+
+Incertum --> {}
+
+a. 3 B.C.? --> {ante 3 B.C., Fuzzy}
+
+p. A.D. 1 --> {post 1 A.D.}
+
+A.D. 8-9 --> {8 A.D. - 9 A.D.}
+
+8/6 B.C. --> {8 B.C. / 6 B.C.}
+
+a. A.D. 1? --> {ante 1 A.D., Fuzzy}
+
+2/1 B.C.? --> {2 B.C. / 1 B.C., Fuzzy}
+
+A.D. 7/9 --> {7 A.D. / 9 A.D.}
+
+A.D. 2?/4 --> {2 A.D., Fuzzy / 4 A.D.}
+
+4/3 B.C.? --> {4 B.C. / 3 B.C., Fuzzy}
+
+A.D. 9? --> {9 A.D., Fuzzy}
+
+A.D. 10 --> {10 A.D.}
+
+3 B.C.?/A.D. 1 --> {3 B.C., Fuzzy / 1 A.D.}
+
+2 B.C.? --> {2 B.C., Fuzzy}
+
+A.D. 6? --> {6 A.D., Fuzzy}
+
+A.D. 12-13 --> {12 A.D. - 13 A.D.}
+
+a. A.D. 15 --> {ante 15 A.D.}
+
+A.D. 1-2 --> {1 A.D. - 2 A.D.}
+
+A.D. 6/13 --> {6 A.D. / 13 A.D.}
+
+4/1 B.C.? --> {4 B.C. / 1 B.C., Fuzzy}
+
+7 B.C. --> {7 B.C.}
+
+p. 7 B.C. --> {post 7 B.C.}
+
+A.D. 8-9? --> {8 A.D. - 9 A.D., Fuzzy}
+
+a. A.D. 10 --> {ante 10 A.D.}
+
+5-4 B.C. --> {5 B.C. - 4 B.C.}
+
+4 B.C./A.D. 2 --> {4 B.C. / 2 A.D.}
+
+a. A.D. 2/3 --> {ante 2 A.D. / 3 A.D.}
+
+A.D. 2/4 --> {2 A.D. / 4 A.D.}
+
+A.D. 6/7 --> {6 A.D. / 7 A.D.}
+
+3/2 B.C.? --> {3 B.C. / 2 B.C., Fuzzy}
+
+4 B.C.? --> {4 B.C., Fuzzy}
+
+A.D. 7 --> {7 A.D.}
+
+A.D. 2-3 --> {2 A.D. - 3 A.D.}
+
+A.D. 7-8 --> {7 A.D. - 8 A.D.}
+
+4 B.C. --> {4 B.C.}
+
+6 B.C.? --> {6 B.C., Fuzzy}
+
+a. 4 B.C. --> {ante 4 B.C.}
+
+A.D. 13 --> {13 A.D.}
+
+A.D. 5/6? --> {5 A.D. / 6 A.D., Fuzzy}
+
+A.D. 1 --> {1 A.D.}
+
+6 B.C. --> {6 B.C.}
+
+A.D. 2? --> {2 A.D., Fuzzy}
+
+A.D. 10/15 --> {10 A.D. / 15 A.D.}
+
+A.D. 4-5 --> {4 A.D. - 5 A.D.}
+
+A.D. 6-7 --> {6 A.D. - 7 A.D.}
+
+2-1 B.C.? --> {2 B.C. - 1 B.C., Fuzzy}
+
+p. A.D. 7 --> {post 7 A.D.}
+
+A.D. 8 --> {8 A.D.}
+
+p. 4 B.C.? --> {post 4 B.C., Fuzzy}
+
+1 B.C./A.D. 1? --> {1 B.C. / 1 A.D., Fuzzy}
+
+a. 2 B.C. --> {ante 2 B.C.}
+
+A.D. 2/3? --> {2 A.D. / 3 A.D., Fuzzy}
+
+3/1 B.C. --> {3 B.C. / 1 B.C.}
+
+A.D. 15 --> {15 A.D.}
+
+A.D. 9/10 --> {9 A.D. / 10 A.D.}
+
+2 B.C./A.D. 2 --> {2 B.C. / 2 A.D.}
+
+p. A.D. 2 --> {post 2 A.D.}
+
+8/6 B.C.? --> {8 B.C. / 6 B.C., Fuzzy}
+
+A.D. 4/5 --> {4 A.D. / 5 A.D.}
+
+A.D. 5/10 --> {5 A.D. / 10 A.D.}
+
+6-5 B.C. --> {6 B.C. - 5 B.C.}
+
+p. 4 B.C./a. A.D. 2 --> {post 4 B.C. / ante 2 A.D.}
+
+A.D. 1? --> {1 A.D., Fuzzy}
+
+1 B.C.? --> {1 B.C., Fuzzy}
+
+3 B.C./A.D. 2 --> {3 B.C. / 2 A.D.}
+
+1 B.C.-A.D. 1 --> {1 B.C. - 1 A.D.}
+
+p. 2 B.C. --> {post 2 B.C.}
+
+6/5 B.C. --> {6 B.C. / 5 B.C.}
+
+A.D. 3/5 --> {3 A.D. / 5 A.D.}
+
+2 B.C./A.D. 2? --> {2 B.C. / 2 A.D., Fuzzy}
+
+a. 6 B.C. --> {ante 6 B.C.}
+
+p. A.D. 6 --> {post 6 A.D.}
+
+Varia --> {}
+
+a. A.D. 1 --> {ante 1 A.D.}
+
+a. A.D. 8 --> {ante 8 A.D.}
+
+8/7 B.C.? --> {8 B.C. / 7 B.C., Fuzzy}
+
+A.D. 5-6 --> {5 A.D. - 6 A.D.}
+
+5 B.C. --> {5 B.C.}
+
+A.D. 15-16 --> {15 A.D. - 16 A.D.}
+
+8/7 B.C. --> {8 B.C. / 7 B.C.}
+
+3 B.C. --> {3 B.C.}
+
+A.D. 12? --> {12 A.D., Fuzzy}
+
+2 B.C. --> {2 B.C.}
+
+a. A.D. 3? --> {ante 3 A.D., Fuzzy}
+
+A.D. 3-4 --> {3 A.D. - 4 A.D.}
+
+5/4 B.C.? --> {5 B.C. / 4 B.C., Fuzzy}
+
+A.D. 8/10 --> {8 A.D. / 10 A.D.}
+
+p. A.D. 5 --> {post 5 A.D.}
+
+A.D. 1/2 --> {1 A.D. / 2 A.D.}
+
+A.D. 7? --> {7 A.D., Fuzzy}
+
+a. A.D. 5? --> {ante 5 A.D., Fuzzy}
+
+A.D. 1/3 --> {1 A.D. / 3 A.D.}
+
+a. A.D. 4 --> {ante 4 A.D.}
+
+A.D. 6 --> {6 A.D.}
+
+a. A.D. 12 --> {ante 12 A.D.}
+
+A.D. 5? --> {5 A.D., Fuzzy}
+
+A.D. 9 --> {9 A.D.}
+
+A.D. 3? --> {3 A.D., Fuzzy}
+
+A.D. 1?/6 --> {1 A.D., Fuzzy / 6 A.D.}
+
+4 B.C./A.D. 1 --> {4 B.C. / 1 A.D.}
+
+A.D. 3/4? --> {3 A.D. / 4 A.D., Fuzzy}
+
+A.D. 5/6 --> {5 A.D. / 6 A.D.}
+
+A.D. 4-5? --> {4 A.D. - 5 A.D., Fuzzy}
+
+A.D. 3/4 --> {3 A.D. / 4 A.D.}
+
+5 B.C.? --> {5 B.C., Fuzzy}
+
+4/3 B.C. --> {4 B.C. / 3 B.C.}
+
+A.D. 1-2? --> {1 A.D. - 2 A.D., Fuzzy}
+
+2 B.C.-A.D. 4 --> {2 B.C. - 4 A.D.}
+
+7/6 B.C.? --> {7 B.C. / 6 B.C., Fuzzy}
+
+5/3 B.C. --> {5 B.C. / 3 B.C.}
+
+a. A.D. 5 --> {ante 5 A.D.}
+
+7/6 B.C. --> {7 B.C. / 6 B.C.}
+
+A.D. 5-6? --> {5 A.D. - 6 A.D., Fuzzy}
+
+p. A.D. 4 --> {post 4 A.D.}
+
+4-3 B.C.? --> {4 B.C. - 3 B.C., Fuzzy}
+
+A.D. 11 --> {11 A.D.}
+
+p. 4 B.C. --> {post 4 B.C.}
+
+A.D. 14-15 --> {14 A.D. - 15 A.D.}
+
+7-6 B.C. --> {7 B.C. - 6 B.C.}
+
+1 B.C./A.D. 1 --> {1 B.C. / 1 A.D.}
+
+a. A.D. 3 --> {ante 3 A.D.}
+
+3 B.C.? --> {3 B.C., Fuzzy}
+
+A.D. 14 --> {14 A.D.}
+
+a. 1 B.C.? --> {ante 1 B.C., Fuzzy}
+
+A.D. 4/6? --> {4 A.D. / 6 A.D., Fuzzy}
+
+8-6 B.C. --> {8 B.C. - 6 B.C.}
+
+4/2 B.C. --> {4 B.C. / 2 B.C.}
+
+p. 5 B.C. --> {post 5 B.C.}
+
+a. 5 B.C. --> {ante 5 B.C.}
+
+1 B.C./A.D. 4? --> {1 B.C. / 4 A.D., Fuzzy}
+
+2 B.C./A.D. 3 --> {2 B.C. / 3 A.D.}
+
+A.D. 4/5? --> {4 A.D. / 5 A.D., Fuzzy}
+
+a. 3 B.C. --> {ante 3 B.C.}
+
+p. 1 B.C.? --> {post 1 B.C., Fuzzy}
+
+4?/2 B.C. --> {4 B.C., Fuzzy / 2 B.C.}
+
+3-2 B.C.? --> {3 B.C. - 2 B.C., Fuzzy}
+
+A.D. 2 --> {2 A.D.}
+
+A.D. 9-10 --> {9 A.D. - 10 A.D.}
+
+A.D. 3 --> {3 A.D.}
+
+a. A.D. 1/2 --> {ante 1 A.D. / 2 A.D.}
+
+A.D. 3/10 --> {3 A.D. / 10 A.D.}
+
+A.D. 2-3? --> {2 A.D. - 3 A.D., Fuzzy}
+
+2/1 B.C. --> {2 B.C. / 1 B.C.}
+
+1 B.C.-A.D. 1? --> {1 B.C. - 1 A.D., Fuzzy}
+
+3/2 B.C. --> {3 B.C. / 2 B.C.}
+
+a. A.D. 14 --> {ante 14 A.D.}
+
+p. A.D. 9/10 --> {post 9 A.D. / 10 A.D.}
+
+4/1 B.C. --> {4 B.C. / 1 B.C.}
+
+A.D. 1-7 --> {1 A.D. - 7 A.D.}
+
+p. A.D. 3 --> {post 3 A.D.}
+
+p. 1 B.C. --> {post 1 B.C.}
+
+a. A.D. 14/15 --> {ante 14 A.D. / 15 A.D.}
+
+4-2 B.C. --> {4 B.C. - 2 B.C.}
+
+A.D. 7/8 --> {7 A.D. / 8 A.D.}
+
+a. A.D. 11 --> {ante 11 A.D.}
+
+p. 3 B.C. --> {post 3 B.C.}
+
+A.D. 4? --> {4 A.D., Fuzzy}
+
+A.D. 13-14 --> {13 A.D. - 14 A.D.}
+
+a. 1 B.C. --> {ante 1 B.C.}
+
+3-2 B.C. --> {3 B.C. - 2 B.C.}
+
+A.D. 11-12 --> {11 A.D. - 12 A.D.}
+
+A.D. 12 --> {12 A.D.}
+
