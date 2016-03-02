@@ -7,7 +7,7 @@ class Year(object):
 		self.isBC = None
 		self.isPost = None
 		self.isAnte = None
-		self.isFuzzy = None
+		self.isProblematical = None
 
 
 class AncientDate(object):
@@ -23,44 +23,28 @@ class AncientDate(object):
 	def __str__(self):
 		out = "{"
 		if self.isRange :
-			if self.year_first.isPost :
-				out += "post "
-			if self.year_first.isAnte :
-				out += "ante "
-			out += self.year_first.val
-			if self.year_first.isAD :
-				out += " A.D."
-			elif self.year_first.isBC :
-				out += " B.C."
-			if self.year_first.isFuzzy :
-				out += ", Fuzzy"
+			out += self._print(self.year_first)
 			out +=  " " + self.separator + " "
-			if self.year_second.isPost :
-				out += "post "
-			if self.year_second.isAnte :
-				out += "ante "
-			out += self.year_second.val
-			if self.year_second.isAD :
-				out += " A.D."
-			elif self.year_second.isBC :
-				out += " B.C."
-			if self.year_second.isFuzzy :
-				out += ", Fuzzy"
+			out += self._print(self.year_second)
 		else:
-			if self.year_first.isPost :
-				out += "post "
-			if self.year_first.isAnte :
-				out += "ante "
-			out += self.year_first.val
-			if self.year_first.isAD :
-				out += " A.D."
-			elif self.year_first.isBC :
-				out += " B.C."
-			if self.year_first.isFuzzy :
-				out += ", Fuzzy"
+			out += self._print(self.year_first)
 		out += "}"
 		return out
 
+	def _print(self, year):
+		out = ""
+		if year.isPost :
+			out += "post "
+		if year.isAnte :
+			out += "ante "
+		out += year.val
+		if year.isAD :
+			out += " A.D."
+		elif year.isBC :
+			out += " B.C."
+		if year.isProblematical :
+			out += ", Problematical"
+		return out
 
 
 	def parse(self, to_parse):
@@ -98,8 +82,8 @@ class AncientDate(object):
 			if(come_back_to_first):
 				self.year_first.isAD = self.year_second.isAD
 				self.year_first.isBC = self.year_second.isBC
-			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isFuzzy = self._add_attributes(first_range)
-			self.year_second.val, self.year_second.isPost, self.year_second.isAnte, self.year_second.isFuzzy = self._add_attributes(second_range)
+			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isProblematical = self._add_attributes(first_range)
+			self.year_second.val, self.year_second.isPost, self.year_second.isAnte, self.year_second.isProblematical = self._add_attributes(second_range)
 		else:
 			d.isRange = False
 			self.year_second = None
@@ -107,14 +91,14 @@ class AncientDate(object):
 				self.year_first.isAD = True
 			elif "BC" in to_parse:
 				self.year_first.isBC = True
-			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isFuzzy = self._add_attributes(to_parse)
+			self.year_first.val, self.year_first.isPost, self.year_first.isAnte, self.year_first.isProblematical = self._add_attributes(to_parse)
 		return self
 
 	def _add_attributes(self, to_check):
 		val = ""
 		isPost = None
 		isAnte = None
-		isFuzzy = False
+		isProblematical = False
 		for i in range(len(to_check)):
 			if to_check[i].isdigit():
 				val += to_check[i]
@@ -126,8 +110,8 @@ class AncientDate(object):
 			isPost = False
 			isAnte = True
 		if("?" in to_check):
-			isFuzzy = True
-		return val, isPost, isAnte, isFuzzy
+			isProblematical = True
+		return val, isPost, isAnte, isProblematical
 
 
 for a in AUTHOR_DATE.keys():
